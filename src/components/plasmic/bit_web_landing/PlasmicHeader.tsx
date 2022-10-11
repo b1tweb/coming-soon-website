@@ -106,7 +106,7 @@ function PlasmicHeader__RenderFunc(props: {
           className={classNames("__wab_instance", sty.homeHeaderButton)}
           link={"https://bitweb.chat" as const}
         >
-          {"Join Discord"}
+          {"JOIN DISCORD"}
         </HomeHeaderButton>
       ) : null}
 

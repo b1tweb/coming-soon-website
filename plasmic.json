@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -28,19 +28,6 @@
       "version": "latest",
       "cssFilePath": "plasmic/bit_web_landing/plasmic_bit_web_landing.module.css",
       "components": [
-        {
-          "id": "EeRCGp3RXibo",
-          "name": "Homepage",
-          "type": "managed",
-          "projectId": "5meqejXadBaiiJpUk3KBXy",
-          "renderModuleFilePath": "plasmic/bit_web_landing/PlasmicHomepage.tsx",
-          "importSpec": {
-            "modulePath": "Homepage.tsx"
-          },
-          "cssFilePath": "plasmic/bit_web_landing/PlasmicHomepage.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
         {
           "id": "_qICj0r55b2",
           "name": "HomeHeroButton",
@@ -107,6 +94,19 @@
           "scheme": "blackbox",
           "componentType": "component",
           "plumeType": "button"
+        },
+        {
+          "id": "EeRCGp3RXibo",
+          "name": "Home",
+          "type": "managed",
+          "projectId": "5meqejXadBaiiJpUk3KBXy",
+          "renderModuleFilePath": "plasmic/bit_web_landing/PlasmicHome.tsx",
+          "importSpec": {
+            "modulePath": "Home.tsx"
+          },
+          "cssFilePath": "plasmic/bit_web_landing/PlasmicHome.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [

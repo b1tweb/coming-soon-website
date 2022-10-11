@@ -1,0 +1,119 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 0;
+  min-height: 0;
+  padding: 0px 0px 67px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    padding-bottom: 147px;
+    align-items: center;
+  }
+}
+.byteMobile {
+  position: relative;
+  object-fit: cover;
+  max-width: none;
+  left: auto;
+  top: auto;
+  z-index: -1;
+  pointer-events: none;
+  height: 381px;
+  flex-shrink: 0;
+  display: none !important;
+}
+.byteMobile > picture > img {
+  object-fit: cover;
+}
+.byteMobile > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .byteMobile {
+    display: inline-block !important;
+  }
+}
+.bitwebLogo:global(.__wab_instance) {
+  position: relative;
+  height: 79px;
+  flex-grow: 0;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .bitwebLogo:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
+.homeHero:global(.__wab_instance) {
+  position: relative;
+  margin-top: 0px;
+  height: 356px;
+  margin-bottom: 0px;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .homeHero:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
+.homeHeroButton:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 269px;
+  align-self: center;
+  margin-top: 37px;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .homeHeroButton:global(.__wab_instance) {
+    left: 22px;
+    top: 334px;
+    z-index: 1;
+    position: absolute;
+    width: 314px;
+    margin-bottom: 127px;
+    margin-right: 10%;
+    margin-left: 10%;
+    max-width: 286px;
+    height: 58px;
+    flex-shrink: 0;
+  }
+}
+.svg___9GCrz {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+  color: #202020;
+}
+.text {
+  text-align: center;
+}
+.svg___2Lto4 {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.bitAndByte:global(.__wab_instance) {
+  position: sticky;
+  margin-top: 0px;
+  height: 374px;
+  left: 0px;
+  top: 583px;
+  z-index: -1;
+  align-self: baseline;
+  flex-shrink: 0;
+}
