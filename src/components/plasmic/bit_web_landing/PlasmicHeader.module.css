@@ -1,0 +1,72 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 53px;
+  max-width: 100%;
+  position: relative;
+  min-width: 0;
+  padding: 15px 8px 0px;
+}
+.homeHeaderButton:global(.__wab_instance) {
+  max-width: 100%;
+  position: fixed;
+  height: 40px;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  width: 154px;
+  left: auto;
+  top: 0;
+  z-index: 1;
+  right: 0;
+  bottom: 13px;
+  margin-right: 34px;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .homeHeaderButton:global(.__wab_instance) {
+    flex-shrink: 0;
+    display: none;
+  }
+}
+.svg__bfA1Q {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+  color: #202020;
+}
+.svg__cTx8V {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.bitwebLogo {
+  position: relative;
+  object-fit: contain;
+  height: 50px;
+  left: auto;
+  top: auto;
+  right: auto;
+  align-self: center;
+  transition-property: all;
+  transition-duration: 5s;
+  transition-timing-function: linear;
+  transform: none;
+  backdrop-filter: blur(0px);
+  width: 63px;
+  flex-shrink: 0;
+  -webkit-backdrop-filter: blur(0px);
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: linear;
+  -webkit-transition-duration: 5s;
+}
+.bitwebLogo > picture > img {
+  object-fit: contain;
+}
+.bitwebLogo > :global(.__wab_img-spacer) > img {
+  object-fit: contain;
+}

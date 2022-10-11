@@ -1,0 +1,19 @@
+{
+  "props": [
+    {
+      "name": "title",
+      "type": "fontfamily",
+      "value": "Poppins",
+      "category": "fontfamily",
+      "meta": {
+        "projectId": "5meqejXadBaiiJpUk3KBXy",
+        "id": "CbMHrWCW6"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

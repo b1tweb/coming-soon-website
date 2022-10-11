@@ -1,0 +1,180 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "5meqejXadBaiiJpUk3KBXy",
+      "projectApiToken": "H0ItDn3H3b7ahkZpg6EoqJdOkcDYLBE6dO7aacBQS326nGNrm3XWRo8GGq2rlA9psBX3x1MzNrzPd6YwAT1iw",
+      "projectName": "BitWeb - Landing",
+      "version": "latest",
+      "cssFilePath": "plasmic/bit_web_landing/plasmic_bit_web_landing.module.css",
+      "components": [
+        {
+          "id": "EeRCGp3RXibo",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "5meqejXadBaiiJpUk3KBXy",
+          "renderModuleFilePath": "plasmic/bit_web_landing/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/bit_web_landing/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "_qICj0r55b2",
+          "name": "HomeHeroButton",
+          "type": "managed",
+          "projectId": "5meqejXadBaiiJpUk3KBXy",
+          "renderModuleFilePath": "plasmic/bit_web_landing/PlasmicHomeHeroButton.tsx",
+          "importSpec": {
+            "modulePath": "HomeHeroButton.tsx"
+          },
+          "cssFilePath": "plasmic/bit_web_landing/PlasmicHomeHeroButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "mo-NtuCrSZ",
+          "name": "Header",
+          "type": "managed",
+          "projectId": "5meqejXadBaiiJpUk3KBXy",
+          "renderModuleFilePath": "plasmic/bit_web_landing/PlasmicHeader.tsx",
+          "importSpec": {
+            "modulePath": "Header.tsx"
+          },
+          "cssFilePath": "plasmic/bit_web_landing/PlasmicHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "cr5pXGhghf",
+          "name": "HomeHero",
+          "type": "managed",
+          "projectId": "5meqejXadBaiiJpUk3KBXy",
+          "renderModuleFilePath": "plasmic/bit_web_landing/PlasmicHomeHero.tsx",
+          "importSpec": {
+            "modulePath": "HomeHero.tsx"
+          },
+          "cssFilePath": "plasmic/bit_web_landing/PlasmicHomeHero.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "0uy3hUmqm-",
+          "name": "BitAndByte",
+          "type": "managed",
+          "projectId": "5meqejXadBaiiJpUk3KBXy",
+          "renderModuleFilePath": "plasmic/bit_web_landing/PlasmicBitAndByte.tsx",
+          "importSpec": {
+            "modulePath": "BitAndByte.tsx"
+          },
+          "cssFilePath": "plasmic/bit_web_landing/PlasmicBitAndByte.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "hMro4uJIaAz",
+          "name": "HomeHeaderButton",
+          "type": "managed",
+          "projectId": "5meqejXadBaiiJpUk3KBXy",
+          "renderModuleFilePath": "plasmic/bit_web_landing/PlasmicHomeHeaderButton.tsx",
+          "importSpec": {
+            "modulePath": "HomeHeaderButton.tsx"
+          },
+          "cssFilePath": "plasmic/bit_web_landing/PlasmicHomeHeaderButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        }
+      ],
+      "icons": [
+        {
+          "id": "SB2JWCCB9Mk",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/bit_web_landing/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "OI1TqQabwyJ",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/bit_web_landing/icons/PlasmicIcon__Icon.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "Amai8SLnh",
+          "name": "image",
+          "filePath": "plasmic/bit_web_landing/images/image.png"
+        },
+        {
+          "id": "M6bznHg2L",
+          "name": "image 2",
+          "filePath": "plasmic/bit_web_landing/images/image2.png"
+        },
+        {
+          "id": "pIGnYL5E3",
+          "name": "image 3",
+          "filePath": "plasmic/bit_web_landing/images/image3.png"
+        },
+        {
+          "id": "gTZn6YArQ",
+          "name": "image 4",
+          "filePath": "plasmic/bit_web_landing/images/image4.png"
+        },
+        {
+          "id": "ECQ6m35DG2",
+          "name": "bitweb-logo.svg",
+          "filePath": "plasmic/bit_web_landing/images/bitwebLogosvg.svg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "fAascTGJgm",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "5E-sz6QakP",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "dhNixrj8Z7r5v",
+        "name": "Screen",
+        "projectId": "5meqejXadBaiiJpUk3KBXy",
+        "contextFilePath": "plasmic/bit_web_landing/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.186",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.186/dist/plasmic.schema.json"
+}
